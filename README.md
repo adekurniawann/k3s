@@ -15,10 +15,10 @@
 ### High Avaliability 
 #### Preparation
 1. Reqruitment
-   a. 1 server load-balancer
-   b. 1 DB-external(mysql)
-   c. 2 or more server-nodes(masters)
-   d. 2 or more server-workers
+   - 1 server load-balancer
+   - 1 DB-external(mysql)
+   - 2 or more server-nodes(masters)
+   - 2 or more server-workers
 2. setup server load-balancer
    a. create an nginx load-balancer to handle trafic of server nodes
    b. make sure that every nodes(load-balancer, server nodes, worker nodes) are connected
